@@ -68,7 +68,11 @@ def predict(model, categories, image):
 
 
 def main():
-    st.title('Colombian Pesu banknote Detection')
+    st.title('Asphalt Pavement Degradation Detector')
+    html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size:16px; font-style:italic;"> <i>According to Asphalt Magazine, before the appropriate repair strategy can be applied to a distressed asphalt pavement, the type and extent of the deterioration must be understood, and the cause of the distress must be identified. This will help to know how to appropriately implement the best repiar strategy.</i></p>'
+    st.markdown(html_text, unsafe_allow_html=True)
+    
+    
     model = load_model(MODEL_PATH)
     categories = load_labels(LABELS_PATH)
     image = load_image()
