@@ -26,7 +26,7 @@ LABELS_PATH = 'model/model_classes.txt'
 
 
 def load_image():
-    uploaded_file = st.file_uploader(label='Pick a banknote to test')
+    uploaded_file = st.file_uploader(label='Upload a degraded pavement to know its possible type')
     if uploaded_file is not None:
         image_data = uploaded_file.getvalue()
         st.image(image_data)
