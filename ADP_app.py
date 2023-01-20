@@ -19,7 +19,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('images/bg2.jpg')    
+add_bg_from_local('images/engineer.jpg')    
 
 MODEL_PATH = 'model/model-APD-pytorch-res50-92accuracy.pt'
 LABELS_PATH = 'model/model_classes.txt'
