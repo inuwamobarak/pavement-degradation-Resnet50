@@ -10,3 +10,5 @@ This projects builds a model for classifying 3 prevalent asphalt degredations in
 The model is built using PyTorch(https://pytorch.org/), an open source machine learning framework for building state of the art models to production deployment.
 
 Transfer learning was used to transfer pretrained weights from the resnt50 architecture after webscraping about 10,000 images.
+
+Dataset link: https://drive.google.com/drive/folders/1HbsTu1BuMpTGQpnS6lfQODgEfvj7n-Fo?usp=share_link
