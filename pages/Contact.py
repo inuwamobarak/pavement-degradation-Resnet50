@@ -23,14 +23,14 @@ def main():
     html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size:16px; font-style:italic;"> <i>Welcome to the contact page. To keep intouch or for enquiries please find contacts below.</i></p>'
     st.markdown(html_text, unsafe_allow_html=True)
     
-    html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size:16px; font-style:italic;"> <i>inuwamobarak@gmail.com</i></p>'
+    html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size:16px; font-style:italic;">EMAIL ADDRESS: <i>inuwamobarak@gmail.com</i></p>'
     st.markdown(html_text, unsafe_allow_html=True)
     
+    html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size:16px; font-style:italic;">LinkedIn: <i><a>https://www.linkedin.com/in/mobarak-inuwa/</a></i></p>'
+    st.markdown(html_text, unsafe_allow_html=True)
     
-    button('Predict image')
-    if result:
-        st.write('Checking...')
-        predict(model, categories, image)
+    html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size:16px; font-style:italic;">Twitter: <i><a>https://https://twitter.com/InuwaAbraham</a></i></p>'
+    st.markdown(html_text, unsafe_allow_html=True)
 
 
 if __name__ == '__main__':
