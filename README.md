@@ -1,5 +1,5 @@
 # Asphalt Pavement Degradation
-Cloud link (Demo): https://inuwamobarak-pavement-degradation-resnet50-adp-app-14d4uk.streamlit.app/
+Cloud link (Demo): https://inuwamobarak-pavement-degradation-resnet50-home-0ec0l3.streamlit.app/
 ## Problem Statement
 According to Asphalt Magazine, before the appropriate repair strategy can be applied to a distressed asphalt pavement, the type and extent of the deterioration must be understood, and the cause of the distress must be identified. This will help to know how to appropriately implement the best repiar strategy.
 ## 
