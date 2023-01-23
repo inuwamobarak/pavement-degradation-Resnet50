@@ -23,6 +23,9 @@ def main():
     st.title('Asphalt Pavement Degradation Detector')
     html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size:16px; font-style:italic;"> <i> COMMING SOON!!!</i></p>'
     st.markdown(html_text, unsafe_allow_html=True)
+    
+    html_text = '<p style="font-family:sans-serif; color:"Navy Blue"; font-size:16px; font-style:italic;"> <i> Other Projects Will soon be uploaded!</i></p>'
+    st.markdown(html_text, unsafe_allow_html=True)
 
 
 if __name__ == '__main__':
