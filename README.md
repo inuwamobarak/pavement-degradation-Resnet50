@@ -9,7 +9,7 @@ According to Asphalt Magazine, before the appropriate repair strategy can be app
 ![download](https://user-images.githubusercontent.com/65142149/213781019-b07e0ac4-1846-490c-9804-e653e32387c7.png)
 
 ## Approach
-Created my dataset by Web Scrapping over 10,000 images of pavement images for the project.
+Created my dataset by Web Scraping over 10,000 images of pavement images for the project.
 
 Using PyTorch and TensorFlow, I built a model for classifying 3 prevalent asphalt degredations including Fatigue Cracking, Linear Cracking and Potholes. This provides engineers a tool to quickly know how to efficiently foster the approate solution. 
 
